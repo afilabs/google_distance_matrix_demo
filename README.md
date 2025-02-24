@@ -1,8 +1,20 @@
-# React + Vite
+# google_distance_matrix_demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Google Routes API - Compute Route Matrix](https://blog.afi.io/content/images/size/w1600/2025/02/Google-Direction--5-.png " Google Routes API - Compute Route Matrix")
 
-Currently, two official plugins are available:
+Taken from: 
+- [A developer's guide to the Google Routes API (part 1 of 5)](https://blog.afi.io/blog/a-developers-guide-to-the-google-routes-api/)
+- [Plan a route with multiple stops using the Routes API (part 2 of 5)](https://blog.afi.io/blog/plan-a-route-with-multiple-stops-using-the-routes-api/)
+- [Using the Google Distance Matrix API for taxi dispatch (part 3 of 5)](https://blog.afi.io/blog/using-the-google-distance-matrix-api-for-taxi-dispatch/)
+- Google Search Along Route (part 4 of 5)
+- How to draw a route on Google Maps for Android with the Routes API (part 5 of 5)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+How to run the app:
+
+1. cd into your project
+2. Open terminal and run `npm install` (this will install the required dependencies)
+3. Update the `.env` file with your Google Maps credentials
+4. Run `npm start`
+
+Please contact afian@afi.io if you have any questions or suggestions. Pull requests are welcome.
+
