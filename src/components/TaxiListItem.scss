@@ -1,0 +1,29 @@
+.TaxiListItem {
+   background-color: #f4f4f4;
+   display: flex;
+   gap: 8px;
+   align-items: center;
+   border: 1px solid transparent;
+   padding: 8px;
+   margin-bottom: 8px;
+   border-radius: 8px;
+   cursor: pointer;
+
+   &.active {
+      border: 2px solid;
+   }
+
+   svg {
+      width: 40px;
+      height: 40px;
+   }
+
+   .details {
+      flex: 1;
+      color: #212121;
+      font-size: 14px;
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2rem;
+   }
+}
